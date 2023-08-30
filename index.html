@@ -5,35 +5,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css" />
         <title>Personal Webpage Portfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Play:wght@400&display=swap">
+
+
     </head>
     <body>
         <!--Navigation Bar-->
-
-        <nav id="nav-bar" class="nav-bar">
-            <ul class="nav-list">
-                <li><a href="#welcome-section">About</a></li>
-                <li><a href="#projects">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-
+        <header id="header">
+            <div class="header-logo">
+                <h1>ZD</h1>
+            </div>
+            <nav class="navbar" id="navbar">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#welcome-section">About</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="header-email">
+                <a href="mailto:dallas@startupbizdev.com" class="email">
+                  <i class="fa fa-envelope"></i> dallas@startupbizdev.com
+                </a>
+              </div>
+          </header>
+    
         <!--Welcome Section-->
         <section id="welcome-section" class="welcome-section">
             <h1 id="welcome-header" class="welcome-header">Zostan Dern</h1>
-            <p>Aspiring Application Developer</p>
+            <p class="custom-underline">Aspiring Application Developer</p>
         </section>
 
         <!--Project Section-->
         <section id="projects" class="project-section">
-            <h2 id="project-header" class="project-header">Projects Portfolio</h2>
-
+            <h2 id="project-section-header" class="project-section-header">Projects Portfolio</h2>
+            <div class="projects-grid">
+                <a href="https://codepen.io/Dallaspeterson1/pen/eYbZEYX" target="_blank" class="project project-tile">
+                    <img class="project-image" src="https://images.unsplash.com/photo-1502547645797-4d2b434459af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="project">
+                    <p class="project-title">Webpage Project</p>
+                </a>
+                <a href="https://codepen.io/Dallaspeterson1/pen/eYbZEYX" target="_blank" class="project project-tile">
+                    <img class="project-image" src="https://images.unsplash.com/photo-1502547645797-4d2b434459af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="project">
+                    <p class="project-title">Webpage Project</p>
+                </a>
+            </div>
+            
 
         </section>
 
         <!--Contact Section-->
         <section id="contact" class="contact-section">
             <h3 id="contact-header" class="contact-header">Stay Connected</h3>
-
+            <a href="mailto:dallas@startupbizdev.com" class="email footer">
+                <i class="fa fa-envelope"></i> dallas@startupbizdev.com
+              </a>
+              <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a id="profile-link" href="https://github.com/Dallaspeterson" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
         </section>
 
         <!--Footer Section-->
